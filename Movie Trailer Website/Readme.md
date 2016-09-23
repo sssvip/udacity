@@ -3,7 +3,7 @@
 ### Basic Infomations:
 1. Author:David (admin@dxscx.com)
 2. Execute Environment:Python 2.7 (3.0+ not test)
-3. The program is practice from udacity.com
+3. The program is a practice from udacity.com
 4. Create time:2016-09-21
 5. Update time:2016-09-22
 	* ```fixed some code formate issue.```
