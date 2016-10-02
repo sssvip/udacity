@@ -1,0 +1,62 @@
+/* @import url(framework.css); */
+
+@media (min-width: 0) {
+	.logo-img {
+		height: 80px;
+	}
+}
+
+@media (min-width: 700px) {
+	.logo-img {
+		height: 70px;
+	}
+}
+/* body style */
+* {
+	margin: 0 auto;
+	text-align: center;
+}
+/* default border */
+.default-border {
+	border: 1px red solid;
+}
+
+/* Header*/
+.header {
+	margin-top: 35px;
+}
+.logo-img {
+	float: left;
+	padding-left: 10px;
+}
+.big-title {
+	font-size: 30px;
+	font-family: Poiret One;
+	color: #d5d3d3;
+}
+.middle-title {
+	font-size: 12px;
+	font-family: Questrial;
+	color: #6f6f6f;
+}
+
+.head-hr {
+	border-top:3px solid #555;
+}
+
+/* Footer */
+
+.footer {
+	margin-bottom: 30px;
+}
+.footer-title {
+	text-align: left;
+	font-size: 30px;
+	padding-left: 30px;
+	color: #bdc9d3;
+}
+.item-title {
+	color: #39414b;
+	font-size: 30px;
+	font-family: Open Sans;
+}
