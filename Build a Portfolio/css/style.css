@@ -1,21 +1,27 @@
 /* @import url(framework.css); */
 
-@media (min-width: 0) {
-	.logo-img {
-		height: 80px;
-	}
-}
 
-@media (min-width: 700px) {
-	.logo-img {
-		height: 70px;
-	}
-}
 
 /* body style */
 * {
 	margin: 0 auto;
 	text-align: center;
+}
+
+.all-row {
+	width: 100%;
+}
+
+.half-row {
+	width: 50%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 /* default border */
@@ -28,8 +34,9 @@
 	margin-top: 35px;
 }
 
-.logo-img {
+.logo-img{
 	float: left;
+	width: 70px;
 	padding-left: 10px;
 }
 
@@ -47,6 +54,11 @@
 
 .head-hr {
 	border-top:3px solid #555;
+
+}
+
+.main-img{
+	width: 100%;
 }
 
 /* Footer */
@@ -66,14 +78,3 @@
 	font-family: Open Sans;
 }
 
-.footer-items {
-	width: 100%;
-}
-
-.footer-title-line {
-	width: 100%;
-}
-
-.footer-title {
-	width: 100%;
-}
