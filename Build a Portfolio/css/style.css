@@ -11,11 +11,13 @@
 		height: 70px;
 	}
 }
+
 /* body style */
 * {
 	margin: 0 auto;
 	text-align: center;
 }
+
 /* default border */
 .default-border {
 	border: 1px red solid;
@@ -25,15 +27,18 @@
 .header {
 	margin-top: 35px;
 }
+
 .logo-img {
 	float: left;
 	padding-left: 10px;
 }
+
 .big-title {
 	font-size: 30px;
 	font-family: Poiret One;
 	color: #d5d3d3;
 }
+
 .middle-title {
 	font-size: 12px;
 	font-family: Questrial;
@@ -45,18 +50,30 @@
 }
 
 /* Footer */
-
 .footer {
 	margin-bottom: 30px;
 }
+
 .footer-title {
 	text-align: left;
 	font-size: 30px;
-	padding-left: 30px;
+	padding-left: 20px;
 	color: #bdc9d3;
 }
+
 .item-title {
 	color: #39414b;
-	font-size: 30px;
 	font-family: Open Sans;
+}
+
+.footer-items {
+	width: 100%;
+}
+
+.footer-title-line {
+	width: 100%;
+}
+
+.footer-title {
+	width: 100%;
 }
